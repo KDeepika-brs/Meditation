@@ -24,7 +24,7 @@ body {
 }
 
 .mapboxgl-ctrl-geocoder {
-    min-width: 100%!important;
+    min-width: 100% !important;
 }
 
 #menu {
@@ -98,7 +98,7 @@ li {
 /* Header Styles
   -------------------------------------------------- */
 
-  header .bg-gradient {
+header .bg-gradient {
     background: rgb(216, 216, 216);
 
 }
@@ -117,7 +117,7 @@ header .navbar-brand {
     z-index: 1;
     width: 213px;
     height: 150px;
-    background-color: var(--primary-color) ;
+    background-color: var(--primary-color);
     border-radius: 0;
 }
 
@@ -145,6 +145,7 @@ header p {
     font: 600 12px/15px Poppins;
     letter-spacing: 0.24px;
     color: #191919;
+    padding-top: 10px;
 }
 
 .ReactTitle {
@@ -218,7 +219,7 @@ code {
 }
 
 .footer-dark {
-    background-color: var(--primary-color) ;
+    background-color: var(--primary-color);
     color: #fff;
 }
 
@@ -248,7 +249,7 @@ footer {
 }
 
 .theme-switch-chathams_blue:hover {
-  box-shadow: 2px 2px 2px var(--chathams_blue);
+    box-shadow: 2px 2px 2px var(--chathams_blue);
 }
 
 .theme-switch-tamarillo {
@@ -256,7 +257,7 @@ footer {
 }
 
 .theme-switch-tamarillo:hover {
-  box-shadow: 2px 2px 2px var(--tamarillo);
+    box-shadow: 2px 2px 2px var(--tamarillo);
 }
 
 .theme-switch-yellow_sea {
@@ -264,10 +265,10 @@ footer {
 }
 
 .theme-switch-yellow_sea:hover {
-  box-shadow: 2px 2px 2px var(--yellow_sea);
+    box-shadow: 2px 2px 2px var(--yellow_sea);
 }
 
-#details{
+#details {
     display: flex !important;
     width: 100vw;
     max-width: 100%;
@@ -276,11 +277,12 @@ footer {
     background: #e4e4e4;
 }
 
-#details p, #details h6{
+#details p,
+#details h6 {
     margin-bottom: 0;
 }
 
-.iss{
+.iss {
     width: 30px;
     height: 30px;
     background-size: 100%;
@@ -295,27 +297,28 @@ footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  .app {
+.app {
     height: 70vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-family: "Montserrat", sans-serif;
-  }
+}
 
-  .time-select,
-  .sound-picker {
+.time-select,
+.sound-picker {
     height: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     flex: 1;
-  }
-  .time-select button,
-  .sound-picker button {
+}
+
+.time-select button,
+.sound-picker button {
     color: white;
     width: 30%;
     height: 10%;
@@ -325,31 +328,34 @@ footer {
     cursor: pointer;
     border: 2px solid white;
     transition: all 0.5s ease;
-  }
+}
 
-  .sound-picker button {
+.sound-picker button {
     border: none;
     height: 120px;
     width: 120px;
     padding: 30px;
     border-radius: 50%;
-  }
-  .sound-picker button:nth-child(1) {
-    background: #4972a1;
-  }
-  .sound-picker button:nth-child(2) {
-    background: #a14f49;
-  }
-  .sound-picker button img {
-    height: 100%;
-  }
+}
 
-  .time-select button:hover {
+.sound-picker button:nth-child(1) {
+    background: #4972a1;
+}
+
+.sound-picker button:nth-child(2) {
+    background: #a14f49;
+}
+
+.sound-picker button img {
+    height: 100%;
+}
+
+.time-select button:hover {
     background: white;
     color: black;
-  }
+}
 
-  .player-container {
+.player-container {
     position: relative;
     height: 80%;
     display: flex;
@@ -357,20 +363,22 @@ footer {
     align-items: center;
     flex-direction: column;
     flex: 1;
-  }
+}
 
-  .player-container svg {
+.player-container svg {
     position: absolute;
     height: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-90deg);
     pointer-events: none;
-  }
-  .player-container svg circle {
+}
+
+.player-container svg circle {
     transition: all 0.2s ease-in-out;
-  }
-  .time-display {
+}
+
+.time-display {
     color: white;
     position: absolute;
     font-size: 50px;
@@ -385,6 +393,6 @@ video {
     z-index: -10;
 }
 
-.play{
+.play {
     cursor: pointer;
 }
